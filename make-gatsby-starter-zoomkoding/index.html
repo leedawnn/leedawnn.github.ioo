@@ -80,7 +80,7 @@
 Netlify로 만들고 싶다면<a href="https://github.com/leedawnn/leedawnn.github.io/tree/master#-netlify%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0">🔧 Netlify로 만들기</a>를 참고하세요.</p>
 <ol>
 <li>
-<p><strong>Repository 생성하기</strong>
+<p>Repository 생성하기
 <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
@@ -105,8 +105,8 @@ Netlify로 만들고 싶다면<a href="https://github.com/leedawnn/leedawnn.gith
         loading="lazy"
         decoding="async"
       />
-    </span>
-일반적으로 repo를 생성하는 것과는 다르게 <strong>Import a repository</strong>를 클릭하여, 줌코딩님의 테마를 import 해온다.</p>
+    </span></p>
+<p>일반적으로 repo를 생성하는 것과는 다르게 <strong>Import a repository</strong>를 클릭하여, 줌코딩님의 테마를 import 해온다.</p>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
@@ -130,26 +130,26 @@ Netlify로 만들고 싶다면<a href="https://github.com/leedawnn/leedawnn.gith
         loading="lazy"
         decoding="async"
       />
-    </span><br>
-들어가면 위와 같은 페이지가 나오게 되는데, URL에는 <a href="https://github.com/zoomKoding/zoomkoding.com">https://github.com/zoomKoding/zoomkoding.com</a>을 넣어주면 된다.</p>
-<p>참고로 나는 줌코딩님의 블로그 세팅이 너무 예뻐서 그대로 가지고 오는 것이니 다른 템플릿을 원한다면 <a href="https://www.gatsbyjs.com/starters/">Gatsby Starters</a>를 참고하면 된다.</p>
+    </span></p>
+<p>들어가면 위와 같은 페이지가 나오게 되는데, URL에는 <a href="https://github.com/zoomKoding/zoomkoding.com">https://github.com/zoomKoding/zoomkoding.com</a>을 넣어주면 된다.</p>
+<p>참고로 나는 줌코딩님의 블로그 세팅이 너무 예뻐서 그대로 가지고 오는 것이니 다른 템플릿을 원한다면 <a href="https://www.gatsbyjs.com/starters/">Gatsby Starters</a>를 참고하세요.</p>
 <p>⚠️ <strong>Repository명은 꼭 [GitHubID].github.io로 설정 할 것 !</strong></p>
 <p>Begin Import 버튼을 누르면 어느 정도의 시간이 흐르고, 줌코딩님의 테마를 import한 Repository가 생성된다.</p>
 </li>
 <li>
-<p><strong>Repository 가져오기</strong></p>
+<p>Repository 가져오기</p>
 <p>이제 레파지토리로 가서 내 컴퓨터에 git clone을 합시다.</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token punctuation">[</span>Repository를 저장할 폴더<span class="token punctuation">]</span>
 <span class="token function">git</span> clone <span class="token punctuation">[</span>복사한 주소<span class="token punctuation">]</span></code></pre></div>
 </li>
 <li>
-<p><strong>Blog 설치하기</strong></p>
+<p>Blog 설치하기</p>
 <p>블로그를 동작시킬 수 있도록 설치되어 있는 패키지들을 다운 받쟈.</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token punctuation">[</span>Repository 주소<span class="token punctuation">]</span>
 <span class="token function">npm</span> <span class="token function">install</span></code></pre></div>
 </li>
 <li>
-<p><strong>Blog 배포 준비하기</strong></p>
+<p>Blog 배포 준비하기</p>
 <p>이제 줌코딩 테마를 GitHub 페이지에 올리기 위해 gh-pages라는 패키지를 설치해야 한다.</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> gh-pages --save-dev</code></pre></div>
 <p>그러고 나서, package.json에 다음을 추가합시다.</p>
@@ -160,16 +160,138 @@ Netlify로 만들고 싶다면<a href="https://github.com/leedawnn/leedawnn.gith
 <span class="token punctuation">}</span></code></pre></div>
 </li>
 <li>
-<p><strong>Blog 배포하기</strong></p>
+<p>Blog 배포하기</p>
 <p>배포 준비 끝 !! 이제 다음 명령을 실행하면 github page에 배포할 수 있어요 ~</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run deploy</code></pre></div>
 <p>조금 기다린 후에  <code class="language-text">Published</code>라는 메시지를 받았다면 배포는 잘 끝났다는 소리 !</p>
+<blockquote>
+<p>⚠️ node 버전이 14 이상이어야 합니다. node -v를 통해 node 버전을 확인하신 후 낮은 버전이라면 업그레이드를 진행해주세요!</p>
+</blockquote>
+</li>
+<li>
+<p>Repository Source Branch 변경하기
+마지막으로 GitHub 페이지가 작동하려면 GitHub의 Repository 설정에서 배포 할 Branch를 선택해야한다. 이를 위해서 Repository에 있는 Settings를 클릭하고 죄측 메뉴에서 Pages를 클릭하여 Github Pages 설정 페이지로 이동하자.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 33.888888888888886%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABLElEQVQoz23Ry07rMBCA4bz/83AE4ixYAEvKZYu4qUASp0nr+BI3sedHcQqoEiN9smc89mJcrD9Knt/WvL6teXp+IYQ9KQkxRmJMB5GUEvFbPvslIghkheo878rStJq6qjC9wTuHMwZnLNYYTN/n2rz2usfmus29eqeJ0wQiWfG4hzufuHcxW/UjK5u4McLKCjcmsXLCwwD3g2Tz/phw64WnvVDcBvjfBs4rzVmpOf3oOGtGTlTitEn8U5HzNnHt4WrmFpdOfsz5hV0eL2rVYJ0nCUxJsmVWkSlOB5EwjospEaa5R/KdJHKkqJXis6woD7bb3SGv2Wxa2m5L23V5VlprtJvYuZgfXOJ7XaKwbmDT7VBNS1krhjDyWSnqpsX5AR/2OB/4K/LvCke+ALWWGN3l6BkwAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="import3"
+        title="import3"
+        src="/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/37523/import3.png"
+        srcset="/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/e9ff0/import3.png 180w,
+/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/f21e7/import3.png 360w,
+/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/37523/import3.png 720w,
+/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/302a4/import3.png 1080w,
+/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/07a9c/import3.png 1440w,
+/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/49ee2/import3.png 1618w"
+        sizes="(max-width: 720px) 100vw, 720px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+        decoding="async"
+      />
+    </span></p>
+<p>여기에서 Source에 있는 Branch를 master(main)에서 gh-pages로 변경한 후에 저장하자.</p>
+</li>
+<li>
+<p>배포된 페이지 확인하기</p>
+<p>이제 실제로 블로그가 잘 배포되었는지 확인해보자. [GitHubID].github.io에 접근하면 된다.</p>
+</li>
+<li>
+<p>수정하고 배포하기</p>
+<p>블로그 수정 할 때는 변동사항을 commit 후 아래 명령어를 실행하면 빠르게 배포된다. 짱짱 👍🏻</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run deploy</code></pre></div>
 </li>
 </ol>
+<h3 id="️-블로그-정보-입력하기" style="position:relative;"><a href="#%EF%B8%8F-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%A0%95%EB%B3%B4-%EC%9E%85%EB%A0%A5%ED%95%98%EA%B8%B0" aria-label="️ 블로그 정보 입력하기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✍️ 블로그 정보 입력하기</h3>
+<p>줌코딩 테마를 통해 기본적인 블로그를 완성시켰다. 이제 블로그 정보를 입력하여 나만의 블로그를 커스텀해보자.</p>
+<ol>
+<li>
+<p>블로그 기본 정보</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json">title<span class="token operator">:</span> '' <span class="token comment">// leedawn.com</span>
+description<span class="token operator">:</span> '' <span class="token comment">// leedawn's world</span>
+language<span class="token operator">:</span> 'ko'<span class="token punctuation">,</span> <span class="token comment">// 'ko', 'en' (영어 버전도 지원하고 있습니다.)</span>
+siteUrl<span class="token operator">:</span> '' <span class="token comment">// https://www.leedawnn.github.io</span>
+ogImage<span class="token operator">:</span> '/og-image.png'<span class="token punctuation">,</span> <span class="token comment">// 공유할 때 보이는 미리보기 이미지로 '/static' 하위에 넣고 싶은 이미지를 추가하시면 됩니다.</span></code></pre></div>
+</li>
+<li>
+<p>댓글 설정</p>
+<p>블로그 글들에 댓글을 달 수 있길 원하신다면 utterances를 통해서 이를 설정할 수 있다.</p>
+<blockquote>
+<p>utterances 사용방법은 <a href="https://utteranc.es/">링크</a>를 참고해주세요!</p>
+</blockquote>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json">comments<span class="token operator">:</span> <span class="token punctuation">{</span>
+ utterances<span class="token operator">:</span> <span class="token punctuation">{</span>
+     repo<span class="token operator">:</span> '' <span class="token comment">// leedawnn/leedawnn.github.io</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span></code></pre></div>
+</li>
+<li>
+<p>글쓴이 정보</p>
+<p>글쓴이(author)에 입력한 정보는 홈페이지와 about 페이지 상단에 있는 글쓴이를 소개하는 섹션인 bio에서 사용된다. description에 자신을 설명하는 문구들을 넣으면 애니메이션으로 보여지게 되고, bio에 들어가는 이미지를 바꾸려면 assets에 원하시는 파일을 추가하고 파일의 이름을 thumbnail에 넣어주면 된다.(gif도 지원함!)</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json">author<span class="token operator">:</span> <span class="token punctuation">{</span>
+   name<span class="token operator">:</span> `이지혜`<span class="token punctuation">,</span>
+   bio<span class="token operator">:</span> <span class="token punctuation">{</span>
+      role<span class="token operator">:</span> `개발자`<span class="token punctuation">,</span>
+      description<span class="token operator">:</span> <span class="token punctuation">[</span>'매일 더 성장하는'<span class="token punctuation">,</span> '끝까지 해내는'<span class="token punctuation">,</span> '이로운 것을 나누고픈'<span class="token punctuation">]</span><span class="token punctuation">,</span>
+      thumbnail<span class="token operator">:</span> 'memoji.png'<span class="token punctuation">,</span> <span class="token comment">// Path to the image in the 'asset' folder</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   social<span class="token operator">:</span> <span class="token punctuation">{</span>
+      github<span class="token operator">:</span> `https<span class="token operator">:</span><span class="token comment">//github.com/leedawnn`,</span>
+      linkedIn<span class="token operator">:</span> `https<span class="token operator">:</span><span class="token comment">//www.linkedin.com/in/ji-hey-lee-0175b9224/`,</span>
+      email<span class="token operator">:</span> `dev.leedawn@gmail.com`<span class="token punctuation">,</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
+</li>
+</ol>
+<h3 id="-about-page-만들기" style="position:relative;"><a href="#-about-page-%EB%A7%8C%EB%93%A4%EA%B8%B0" aria-label=" about page 만들기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>👸 about page 만들기</h3>
+<p>about 페이지 또한 gatsby-meta-config.js를 통해 생성된다. about 하위에 있는 timestamps와 projects에 각각 정보를 입력하면 about 페이지가 자동 생성됨.</p>
+<ol>
+<li>
+<p>timestamps</p>
+<p>아래와 같이 각 timestamp 정보를 배열로 제공해주면 입력한 순서에 맞춰서 timestamps section에 보여지게 된다.</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+date<span class="token operator">:</span> '<span class="token number">2021.01</span> ~'<span class="token punctuation">,</span>
+activity<span class="token operator">:</span> '개인 블로그 개발 및 운영'<span class="token punctuation">,</span>
+links<span class="token operator">:</span> <span class="token punctuation">{</span>
+   post<span class="token operator">:</span> '/make-gatsby-starter-zoomkoding'<span class="token punctuation">,</span>
+   github<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//github.com/leedawnn/leedawnn.github.io',</span>
+   demo<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//leedawnn.github.io/',</span>
+   <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
+</li>
+<li>
+<p>projects</p>
+<p>마찬가지로 각 project 정보를 배열로 입력하면 순서대로 projects section에 보여지게 된다.</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+title<span class="token operator">:</span> '개발 블로그 테마 개발'<span class="token punctuation">,</span>
+description<span class="token operator">:</span>
+   '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.'<span class="token punctuation">,</span>
+techStack<span class="token operator">:</span> <span class="token punctuation">[</span>'gatsby'<span class="token punctuation">,</span> 'react'<span class="token punctuation">]</span><span class="token punctuation">,</span>
+thumbnailUrl<span class="token operator">:</span> 'blog.png'<span class="token punctuation">,</span>
+links<span class="token operator">:</span> <span class="token punctuation">{</span>
+   post<span class="token operator">:</span> '/gatsby-starter-zoomkoding-introduction'<span class="token punctuation">,</span>
+   github<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//github.com/zoomkoding/zoomkoding-gatsby-blog',</span>
+   demo<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//www.zoomkoding.com',</span>
+   <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
+</li>
+</ol>
+<p>이렇게 내용을 문제 없이 입력하셨다면 나만의 블로그가 탄생한 것을 확인하실 수 있습니다.🎉</p>
+<blockquote>
+<p>이 게시글은 <a href="https://github.com/zoomkoding/zoomkoding-gatsby-blog">zoomkoding-gatsby-blog</a>을 보고 작성하였습니다. 더 자세한 정보를 얻고 싶다면 링크를 참조하세요.</p>
+</blockquote>
 <div class="table-of-contents">
 <ul>
 <li><a href="#%EC%98%88%EC%81%98%EB%A9%B4-%EC%9E%A5%EB%95%A1">💅 예쁘면 장땡</a></li>
 <li><a href="#-gatsby%EC%9D%98-%EC%9E%A5%EC%A0%90">✅ Gatsby의 장점</a></li>
 <li><a href="#%EC%9D%B4%EC%A0%9C-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90">🚀 이제 만들어보자</a></li>
+<li><a href="#%EF%B8%8F-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%A0%95%EB%B3%B4-%EC%9E%85%EB%A0%A5%ED%95%98%EA%B8%B0">✍️ 블로그 정보 입력하기</a></li>
+<li><a href="#-about-page-%EB%A7%8C%EB%93%A4%EA%B8%B0">👸 about page 만들기</a></li>
 </ul>
 </div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/gatsby-starter-zoomkoding-introduction/"><div class="direction">이전 글</div><div class="title">쉽고 빠르게 나만의 개츠비(Gatsby) 블로그 만들기</div></a></div><div class="post-navigator-card-wrapper"></div></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/leedawnn">이지혜</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/make-gatsby-starter-zoomkoding/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-6631a14e6c3d8f658443.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js" async=""></script><script src="/app-6631a14e6c3d8f658443.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-e82a0f1e2cd289355a4a.js" async=""></script></body></html>
