@@ -3,8 +3,8 @@ emoji: ✨
 title: Gatsby로 github blog 만들기
 date: '2022-01-06 20:00:00'
 author: leedawn
-tags: FEATURED
-categories: FEATURED
+tags: theme
+categories: featured
 ---
 
 ### 💅 예쁘면 장땡
@@ -84,12 +84,5 @@ Netlify로 만들고 싶다면[🔧 Netlify로 만들기](https://github.com/le
    조금 기다린 후에  `Published`라는 메시지를 받았다면 배포는 잘 끝났다는 소리 !
 
 ```toc
-💅 예쁘면 장땡
-✅ Gatsby의 장점
-🚀 이제 만들어보자
-  1. Repository 생성하기
-  2. Repository 가져오기
-  3. Blog 설치하기
-  4. Blog 배포 준비하기
-  5. Blog 배포하기
+
 ```
