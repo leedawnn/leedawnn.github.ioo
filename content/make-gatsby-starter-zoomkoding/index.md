@@ -12,6 +12,7 @@ categories: FEATURED
 처음 개발 블로그를 만들 때는 velog를 이용했다. 마크다운을 지원해서 글쓰는 것도 편하고, 무엇보다 사이트가 깔끔하고 예뻤다. 태그를 달아 카테고리 별로 보기 쉽게 정리할 수도 있었다. 그치만.. 잔디밭을 심지 못한다는 단점이 있어서 Jeykll이나 Hexo를 이용하여 github blog를 만들기도 했다. 하지만 테마가 마음에 들지 않아 글을 쓰고 싶은 마음이 들지 않았다. ~~핑계인가..ㅎ~~ 
 
 그렇게 github 파도타기를 하며 예쁜 테마를 찾던 중, **zoomkoding-gatsby-blog** 템플릿이 눈에 들어왔다. 
+
 예.뻤.다. ✨ 
 
 ### ✅ **Gatsby의 장점**
@@ -24,17 +25,17 @@ GitHub Page나 Netlify 중 배포 환경을 골라보자. 난 깃헙 페이지�
 Netlify로 만들고 싶다면 ![🔧 **Netlify로 만들기**]([https://github.com/leedawnn/leedawnn.github.io/tree/master#-netlify로-만들기](https://github.com/leedawnn/leedawnn.github.io/tree/master#-netlify%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0))를 참고하세요.
 
 1. **Repository 생성하기**
-    ![](./import1.png)
+    ![]([./import1.png])
     일반적으로 repo를 생성하는 것과는 다르게 **Import a repository**를 클릭하여, 줌코딩님의 테마를 import 해온다. 
     
-    ![](./import2.png)  
-    들어가면 위와 같은 페이지가 나오게 되는데, URL에는 **[https://github.com/zoomKoding/zoomkoding.com](https://github.com/zoomKoding/zoomkoding.com)**을 넣어주면 된다. 
+    ![]([./import2.png])  
+    들어가면 위와 같은 페이지가 나오게 되는데, URL에는 **![https://github.com/zoomKoding/zoomkoding.com](https://github.com/zoomKoding/zoomkoding.com)**을 넣어주면 된다. 
     
-    참고로 나는 줌코딩님의 블로그 세팅이 너무 예뻐서 그대로 가지고 오는 것이니 다른 템플릿을 원한다면 ![**Gatsby Starters**]([https://www.gatsbyjs.com/starters/](https://www.gatsbyjs.com/starters/))를 참고하면 된다. 
+    참고로 나는 줌코딩님의 블로그 세팅이 너무 예뻐서 그대로 가지고 오는 것이니 다른 템플릿을 원한다면 ![Gatsby Starters]([https://www.gatsbyjs.com/starters/](https://www.gatsbyjs.com/starters/))를 참고하면 된다. 
     
     ⚠️ **Repository명은 꼭 [GitHubID].github.io로 설정 할 것 !** 
     
-    Begin Import 버튼을 누르면 어느 정도의 시간이 흐르고, 줌코딩님의 테마를 ****import한 Repository가 생성된다.
+    Begin Import 버튼을 누르면 어느 정도의 시간이 흐르고, 줌코딩님의 테마를 import한 Repository가 생성된다.
     
 2. **Repository 가져오기**
     
