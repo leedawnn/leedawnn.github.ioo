@@ -16,19 +16,19 @@ categories: FEATURED
 
 ### ✅ **Gatsby의 장점**
 
-Jekyll은 **Ruby** 기반으로 만들어져 있고, Gatsby는 **React** 기반으로 만들어졌다. 
-현재 React를 공부하고 있고, 앞으로도 React를 현업에서 많이 쓸 예정이기 때문에 Gatsby를 사용하는 것이 블로그 세팅이 더 쉬울 것이라는 판단을 했다. 또한 개발자들이 서로 다른 콘텐츠, API 및 서비스를 하나의 웹 환경으로 통합하는 것을 매우 간단하게 만드는 React 기반 프레임워크와 혁신적인 데이터 계층을 사용하여 빠르고 안전하며 강력한 웹 사이트를 구축할 수 있도록 지원한다는 장점이 있다.
+Jekyll은 **Ruby** 기반으로 만들어져 있고, Gatsby는 **React** 기반으로 만들어졌다.
+ 현재 React를 공부하고 있고, 앞으로도 React를 현업에서 많이 쓸 예정이기 때문에 Gatsby를 사용하는 것이 블로그 세팅이 더 쉬울 것이라는 판단을 했다. 또한 개발자들이 서로 다른 콘텐츠, API 및 서비스를 하나의 웹 환경으로 통합하는 것을 매우 간단하게 만드는 React 기반 프레임워크와 혁신적인 데이터 계층을 사용하여 빠르고 안전하며 강력한 웹 사이트를 구축할 수 있도록 지원한다는 장점이 있다.
 
 ### 🚀 이제 만들어보자
 
 GitHub Page나 Netlify 중 배포 환경을 골라보자. 난 깃헙 페이지가 편해서 이걸로 만들었음.
-Netlify로 만들고 싶다면![🔧 Netlify로 만들기](https://github.com/leedawnn/leedawnn.github.io/tree/master#-netlify로-만들기)를 참고하세요.
+Netlify로 만들고 싶다면[🔧 Netlify로 만들기](https://github.com/leedawnn/leedawnn.github.io/tree/master#-netlify로-만들기)를 참고하세요.
 
 1. **Repository 생성하기**
-    ![]([./import1.png])
+    ![](../assets/import1.png)
     일반적으로 repo를 생성하는 것과는 다르게 **Import a repository**를 클릭하여, 줌코딩님의 테마를 import 해온다. 
     
-    ![]([./import2.png])  
+    ![](../assets/import2.png)  
     들어가면 위와 같은 페이지가 나오게 되는데, URL에는 **![https://github.com/zoomKoding/zoomkoding.com](https://github.com/zoomKoding/zoomkoding.com)**을 넣어주면 된다. 
     
     참고로 나는 줌코딩님의 블로그 세팅이 너무 예뻐서 그대로 가지고 오는 것이니 다른 템플릿을 원한다면 ![Gatsby Starters]([https://www.gatsbyjs.com/starters/](https://www.gatsbyjs.com/starters/))를 참고하면 된다. 
