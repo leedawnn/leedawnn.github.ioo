@@ -64,234 +64,122 @@
         }
       }
     })
-  </script><title data-react-helmet="true">Gatsby로 github blog 만들기</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="Gatsby로 github blog 만들기"/><meta data-react-helmet="true" property="og:site_title" content="Gatsby로 github blog 만들기"/><meta data-react-helmet="true" name="description" content="💅 예쁘면 장땡 처음 개발 블로그를 만들 때는 velog를 이용했다. 마크다운을 지원해서 글쓰는 것도 편하고, 무엇보다 사이트가 깔끔하고 예뻤다. 태그를 달아 카테고리 별로 보기 쉽게 정리할 수도 있었다. 그치만.. 잔디밭을 심지 못한다는 단점이 있어서 Jeykll이나 Hexo를 이용하여 github blog를 만들기도 했다. 하지만 테마가 마음에 들지 않아 글을 쓰고 싶은 마음이 들지 않았다. 핑계인가..ㅎ 그렇게 github 파도타기를 하며 예쁜 테마를 찾던 중, zoomkoding-gatsby-blog 템플릿이 눈에 들어왔다.
-예.뻤.다. ✨ ✅ Gatsby의 장점 Jekyll은 Ruby 기반으로 만들어져 있고, Gatsby는 React 기반으로 만들어졌다.
-현재 React를 공부하고 있고, 앞으로도 React를 현업에서 많이 쓸 예정이기 때문에 Gatsby를 사용하는 것이 블로그 세팅이 더 쉬울 것이라는 판단을 했다. 또한 개발자들이 서로 다른 콘텐츠, API 및 서비스를 …"/><meta data-react-helmet="true" property="og:description" content="💅 예쁘면 장땡 처음 개발 블로그를 만들 때는 velog를 이용했다. 마크다운을 지원해서 글쓰는 것도 편하고, 무엇보다 사이트가 깔끔하고 예뻤다. 태그를 달아 카테고리 별로 보기 쉽게 정리할 수도 있었다. 그치만.. 잔디밭을 심지 못한다는 단점이 있어서 Jeykll이나 Hexo를 이용하여 github blog를 만들기도 했다. 하지만 테마가 마음에 들지 않아 글을 쓰고 싶은 마음이 들지 않았다. 핑계인가..ㅎ 그렇게 github 파도타기를 하며 예쁜 테마를 찾던 중, zoomkoding-gatsby-blog 템플릿이 눈에 들어왔다.
-예.뻤.다. ✨ ✅ Gatsby의 장점 Jekyll은 Ruby 기반으로 만들어져 있고, Gatsby는 React 기반으로 만들어졌다.
-현재 React를 공부하고 있고, 앞으로도 React를 현업에서 많이 쓸 예정이기 때문에 Gatsby를 사용하는 것이 블로그 세팅이 더 쉬울 것이라는 판단을 했다. 또한 개발자들이 서로 다른 콘텐츠, API 및 서비스를 …"/><meta data-react-helmet="true" property="og:author" content="이지혜"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-e82a0f1e2cd289355a4a.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-6631a14e6c3d8f658443.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"/><link as="fetch" rel="preload" href="/page-data/make-gatsby-starter-zoomkoding/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">leedawn.com</a></div><div class="trailing-section"><a class="link" href="/about">about</a><a class="link" href="/posts">posts</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">✨</div><div class="info"><div class="categories"><a class="category" href="/posts/featured">featured</a></div></div><h1 class="title">Gatsby로 github blog 만들기</h1><div class="info"><div class="author">posted by <strong>leedawn</strong>,</div> <!-- -->January 06, 2022</div></header><div class="post-content"><div class="markdown"><h3 id="예쁘면-장땡" style="position:relative;"><a href="#%EC%98%88%EC%81%98%EB%A9%B4-%EC%9E%A5%EB%95%A1" aria-label="예쁘면 장땡 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>💅 예쁘면 장땡</h3>
-<p>처음 개발 블로그를 만들 때는 velog를 이용했다. 마크다운을 지원해서 글쓰는 것도 편하고, 무엇보다 사이트가 깔끔하고 예뻤다. 태그를 달아 카테고리 별로 보기 쉽게 정리할 수도 있었다. 그치만.. 잔디밭을 심지 못한다는 단점이 있어서 Jeykll이나 Hexo를 이용하여 github blog를 만들기도 했다. 하지만 테마가 마음에 들지 않아 글을 쓰고 싶은 마음이 들지 않았다. <del>핑계인가..ㅎ</del></p>
-<p>그렇게 github 파도타기를 하며 예쁜 테마를 찾던 중, <strong>zoomkoding-gatsby-blog</strong> 템플릿이 눈에 들어왔다.
-예.뻤.다. ✨</p>
-<h3 id="-gatsby의-장점" style="position:relative;"><a href="#-gatsby%EC%9D%98-%EC%9E%A5%EC%A0%90" aria-label=" gatsby의 장점 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✅ Gatsby의 장점</h3>
-<p>Jekyll은 <strong>Ruby</strong> 기반으로 만들어져 있고, Gatsby는 <strong>React</strong> 기반으로 만들어졌다.
-현재 React를 공부하고 있고, 앞으로도 React를 현업에서 많이 쓸 예정이기 때문에 Gatsby를 사용하는 것이 블로그 세팅이 더 쉬울 것이라는 판단을 했다. 또한 개발자들이 서로 다른 콘텐츠, API 및 서비스를 하나의 웹 환경으로 통합하는 것을 매우 간단하게 만드는 React 기반 프레임워크와 혁신적인 데이터 계층을 사용하여 빠르고 안전하며 강력한 웹 사이트를 구축할 수 있도록 지원한다는 장점이 있다.</p>
-<h3 id="이제-만들어보자" style="position:relative;"><a href="#%EC%9D%B4%EC%A0%9C-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90" aria-label="이제 만들어보자 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>🚀 이제 만들어보자</h3>
-<p>GitHub Page나 Netlify 중 배포 환경을 골라보자. 난 깃헙 페이지가 편해서 이걸로 만들었음.
-Netlify로 만들고 싶다면<a href="https://github.com/leedawnn/leedawnn.github.io/tree/master#-netlify%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0">🔧 Netlify로 만들기</a>를 참고하세요.</p>
-<ol>
-<li>
-<p>Repository 생성하기
-<span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 27.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA5ElEQVQY042RC2+DMAyE+///3LSXyijP0UIFA5LAoJCEbyIdUydt0yydbOUs+3zZ+f6Boiw5FgXZKSdKU8I4QamONZZl+RG/cbtDGHHce8QPjyRPz4R392RBQN0K2lYgVYdUCimVWyKkQkiJ6nqEkI5vWsGstVuyWxvql4DKi6j8hNKLsE3tSK0Nxhi0ueatvoV70wZr7VUhWywGzIydRrTWDmvTf+Pr5KosGcaRSRuGy8TrKScvzhTFmb7vsMvyqcR+847NyxtP3clJmhGnGeVb43wZLjPv4+TyVm9YB//1UavCD7SK0Vu8fu1BAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="import1"
-        title="import1"
-        src="/static/5d26884acc11c95616c06082247e9ff8/37523/import1.png"
-        srcset="/static/5d26884acc11c95616c06082247e9ff8/e9ff0/import1.png 180w,
-/static/5d26884acc11c95616c06082247e9ff8/f21e7/import1.png 360w,
-/static/5d26884acc11c95616c06082247e9ff8/37523/import1.png 720w,
-/static/5d26884acc11c95616c06082247e9ff8/302a4/import1.png 1080w,
-/static/5d26884acc11c95616c06082247e9ff8/07a9c/import1.png 1440w,
-/static/5d26884acc11c95616c06082247e9ff8/fe720/import1.png 1448w"
-        sizes="(max-width: 720px) 100vw, 720px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-        decoding="async"
-      />
-    </span></p>
-<p>일반적으로 repo를 생성하는 것과는 다르게 <strong>Import a repository</strong>를 클릭하여, 줌코딩님의 테마를 import 해온다.</p>
+  </script><title data-react-helmet="true">CSR, SSR이 뭐예요?</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="CSR, SSR이 뭐예요?"/><meta data-react-helmet="true" property="og:site_title" content="CSR, SSR이 뭐예요?"/><meta data-react-helmet="true" name="description" content="들어가기에 앞서.. 파이널 프로젝트를 하면서, 싱크업 미팅 때 홈페이지 인덱스 쪽을 SSR로 개발해달라는 기업 측 요구사항이 있어서 공부할 겸 정리를 해보려고 합니다 😃 CSR란 무엇인가?  CSR란 Client Side Rendering의 약자로, 클라이언트가 렌더링을 하는 방식을 말합니다. 우리가 웹사이트에 접속하게 되면, 빈 HTML 파일을 먼저 다운받게 됩니다. 그래서 이 HTML 파일 안에 있는 DOM 요소나 스타일들이 보이게 되죠.
+이 다음 단계부터는 리액트를 예시로 들겠습니다. 리액트는 자바스크립트로 이루어진 커다란 웹 애플리케이션입니다. 그렇기 때문에 자바스크립트 전체가 다운이 완료되어야지 리액트가 실행됩니다. 이후 한마디로 전체 자바스크립트 파일이 다운되어서 실행되기 전까지 우리는 리액트 앱 화면을 볼 수 없다는 말이죠. 🥲 리액트가 실행되면 리액트 컴포넌트들이 화면에 그려지게 되고 그제서야 화면을 볼 수 있게 되고, 유저가 인터랙션을 할 수 있게 됩니다. 이후 필…"/><meta data-react-helmet="true" property="og:description" content="들어가기에 앞서.. 파이널 프로젝트를 하면서, 싱크업 미팅 때 홈페이지 인덱스 쪽을 SSR로 개발해달라는 기업 측 요구사항이 있어서 공부할 겸 정리를 해보려고 합니다 😃 CSR란 무엇인가?  CSR란 Client Side Rendering의 약자로, 클라이언트가 렌더링을 하는 방식을 말합니다. 우리가 웹사이트에 접속하게 되면, 빈 HTML 파일을 먼저 다운받게 됩니다. 그래서 이 HTML 파일 안에 있는 DOM 요소나 스타일들이 보이게 되죠.
+이 다음 단계부터는 리액트를 예시로 들겠습니다. 리액트는 자바스크립트로 이루어진 커다란 웹 애플리케이션입니다. 그렇기 때문에 자바스크립트 전체가 다운이 완료되어야지 리액트가 실행됩니다. 이후 한마디로 전체 자바스크립트 파일이 다운되어서 실행되기 전까지 우리는 리액트 앱 화면을 볼 수 없다는 말이죠. 🥲 리액트가 실행되면 리액트 컴포넌트들이 화면에 그려지게 되고 그제서야 화면을 볼 수 있게 되고, 유저가 인터랙션을 할 수 있게 됩니다. 이후 필…"/><meta data-react-helmet="true" property="og:author" content="이지혜"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-e82a0f1e2cd289355a4a.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-6631a14e6c3d8f658443.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"/><link as="fetch" rel="preload" href="/page-data/whta-is-CRS-SSR/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">leedawn.com</a></div><div class="trailing-section"><a class="link" href="/about">about</a><a class="link" href="/posts">posts</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">🧐</div><div class="info"><div class="categories"><a class="category" href="/posts/web">web</a></div></div><h1 class="title">CSR, SSR이 뭐예요?</h1><div class="info"><div class="author">posted by <strong>leedawn</strong>,</div> <!-- -->January 09, 2022</div></header><div class="post-content"><div class="markdown"><h4 id="들어가기에-앞서" style="position:relative;"><a href="#%EB%93%A4%EC%96%B4%EA%B0%80%EA%B8%B0%EC%97%90-%EC%95%9E%EC%84%9C" aria-label="들어가기에 앞서 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>들어가기에 앞서..</h4>
+<p>파이널 프로젝트를 하면서, 싱크업 미팅 때 홈페이지 인덱스 쪽을 SSR로 개발해달라는 기업 측 요구사항이 있어서 공부할 겸 정리를 해보려고 합니다 😃</p>
+<hr>
+<h3 id="csr란-무엇인가" style="position:relative;"><a href="#csr%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80" aria-label="csr란 무엇인가 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSR란 무엇인가?</h3>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
     >
       <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 84.44444444444446%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACAUlEQVQ4y5VUi46bMBDk//+matX7j+rSu0vbREl4GrgAxsZPpvUCEcldr42l0a6FNZ7ZXRNZa9F1HTjnEEKg7/vLvmkatG2LcOajNY7jJY+ElHjcPOFl+xNPz1u8bH/g2+MGv3Z72m++PyMvGISQaNsOHQ8XckLbdVBaX0gDIvzH0sZA6wA9xwlKaVjniMgvhOEQYyUYY0jSFEmSoqwqFIwhTlI0TYt7VmStQ8FqZEWJNGdIsgJpyLMCr+czpJTQxmIIirShuIa6wE4KjbHIWYmirJDmBcVQs7TqkDUWeWPApSVrxn4MIvTewxhDmGqkYUK0DsqM0C7U5w7LSilkeU41zIsCpzih/W63x2tdL4PxZkz+hih06nA4omnONBqho8Hy4XjCKUlR1zWCC+cm+Hnm1rN3pdB5j6qqcYxTakgvBkilIZVZxQli0FSrNeGi7EJoaGwYnHO4d72nMur1iLg4I0kzsLIk4tD58NzMDEtwV3ER8EZh6GDPO9RVCVZWkMOAXkiKoaYLQvN4LyjvhaDv7zUoCkVWnKEqYpzijA4PC5mUkHKgyPseod7XlgG3AhEGsX5+i96PZJesmlsYshk6Po5+tnkLILqV/O8mjFB2xKA89tzjU+zxOfb4mnh6BKu/zTh5WG6+yacL57+PHcGlw457fIk9HlKPh8RD/SH8DdFxLcnBddsjAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    style="padding-bottom: 70.55555555555556%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACKElEQVQoz3WTzW4TMRDHUyQucOIBEA/AE/AIRRw4AEIcEC/ADQ4Iqa0E9IDgxgX1RkCopPQCUikVB9KWkiZRoWlC0nx/O8luNomzu17bM4bdDZtSYGTZI1s/W//5j0Pqr0B054rBEk26WR1me1aweSxCE8AbfoCXfWuPI2ltMVr/VBr4m4Ao4Y9LQuo/IVH1bcEE2AL++ewUpo6sDZzG0NFMjqjymk0oV0qlOuZKWqsaTCn1Il6/t5KoUxGomMBlg+3URqU+0y0hAPeJWey7wMeC8XirkWxSpdTt1YPzC++3G2YgbQKPORzq9oBJ7wC7Y57tWYBKt8Q+MVsjhwnYrNK1Ek02KZNwXDOXGGhzC4OTQsKRRAIIQAE4hVsj59qb3JXl7OXXP95mtDvr5YvhzI1ILloZ3lw9nA2nn8fJo8/1Sy8zt1bzV5ezGwXDqyi6cEG3zyzGTj/8emJ+++56+cLS/szc9qkHO8922+eeJkL3t65HcrPh9Mzc1tkn8ZMLX5aSRCklwIMdCSliJlvj78S0BBT7dqxBDzXXo1THjDfpiMnKwNkjbK/j7BGrbwlfyESzAHQk+pZyQC7R4iABuaeQCQRE0q21SHlAR+p3R4X8pT500l3TsAWia9tug+qm4ICJJj3omCOOSvJ49NXau3lKYp7PMIV7Y57Xbd1yYUJdn3zDc5pVMRh1QCnIVdsfNjZYpxh8gGlv+607dQWDHIP+PPoFfsE/AeyhAQOh/9WIAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
-        alt="import2"
-        title="import2"
-        src="/static/86c36ebbfecef3e3ff1d06cee931d766/37523/import2.png"
-        srcset="/static/86c36ebbfecef3e3ff1d06cee931d766/e9ff0/import2.png 180w,
-/static/86c36ebbfecef3e3ff1d06cee931d766/f21e7/import2.png 360w,
-/static/86c36ebbfecef3e3ff1d06cee931d766/37523/import2.png 720w,
-/static/86c36ebbfecef3e3ff1d06cee931d766/302a4/import2.png 1080w,
-/static/86c36ebbfecef3e3ff1d06cee931d766/52576/import2.png 1412w"
+        alt="csr"
+        title="csr"
+        src="/static/f6ea6fffafaa99522805db78258cbfb2/37523/csr.png"
+        srcset="/static/f6ea6fffafaa99522805db78258cbfb2/e9ff0/csr.png 180w,
+/static/f6ea6fffafaa99522805db78258cbfb2/f21e7/csr.png 360w,
+/static/f6ea6fffafaa99522805db78258cbfb2/37523/csr.png 720w,
+/static/f6ea6fffafaa99522805db78258cbfb2/302a4/csr.png 1080w,
+/static/f6ea6fffafaa99522805db78258cbfb2/2cefc/csr.png 1400w"
         sizes="(max-width: 720px) 100vw, 720px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
         decoding="async"
       />
     </span></p>
-<p>들어가면 위와 같은 페이지가 나오게 되는데, URL에는 <a href="https://github.com/zoomKoding/zoomkoding.com">https://github.com/zoomKoding/zoomkoding.com</a>을 넣어주면 된다.</p>
-<p>참고로 나는 줌코딩님의 블로그 세팅이 너무 예뻐서 그대로 가지고 오는 것이니 다른 템플릿을 원한다면 <a href="https://www.gatsbyjs.com/starters/">Gatsby Starters</a>를 참고하세요.</p>
-<p>⚠️ <strong>Repository명은 꼭 [GitHubID].github.io로 설정 할 것 !</strong></p>
-<p>Begin Import 버튼을 누르면 어느 정도의 시간이 흐르고, 줌코딩님의 테마를 import한 Repository가 생성된다.</p>
-</li>
-<li>
-<p>Repository 가져오기</p>
-<p>이제 레파지토리로 가서 내 컴퓨터에 git clone을 합시다.</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token punctuation">[</span>Repository를 저장할 폴더<span class="token punctuation">]</span>
-<span class="token function">git</span> clone <span class="token punctuation">[</span>복사한 주소<span class="token punctuation">]</span></code></pre></div>
-</li>
-<li>
-<p>Blog 설치하기</p>
-<p>블로그를 동작시킬 수 있도록 설치되어 있는 패키지들을 다운 받쟈.</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">cd</span> <span class="token punctuation">[</span>Repository 주소<span class="token punctuation">]</span>
-<span class="token function">npm</span> <span class="token function">install</span></code></pre></div>
-</li>
-<li>
-<p>Blog 배포 준비하기</p>
-<p>이제 줌코딩 테마를 GitHub 페이지에 올리기 위해 gh-pages라는 패키지를 설치해야 한다.</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> gh-pages --save-dev</code></pre></div>
-<p>그러고 나서, package.json에 다음을 추가합시다.</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token punctuation">{</span>
-  <span class="token string">"scripts"</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
-    <span class="token string">"deploy"</span><span class="token builtin class-name">:</span> <span class="token string">"gatsby build &amp;&amp; gh-pages -d public"</span> // 추가
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span></code></pre></div>
-</li>
-<li>
-<p>Blog 배포하기</p>
-<p>배포 준비 끝 !! 이제 다음 명령을 실행하면 github page에 배포할 수 있어요 ~</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run deploy</code></pre></div>
-<p>조금 기다린 후에  <code class="language-text">Published</code>라는 메시지를 받았다면 배포는 잘 끝났다는 소리 !</p>
-<blockquote>
-<p>⚠️ node 버전이 14 이상이어야 합니다. node -v를 통해 node 버전을 확인하신 후 낮은 버전이라면 업그레이드를 진행해주세요!</p>
-</blockquote>
-</li>
-<li>
-<p>Repository Source Branch 변경하기
-마지막으로 GitHub 페이지가 작동하려면 GitHub의 Repository 설정에서 배포 할 Branch를 선택해야한다. 이를 위해서 Repository에 있는 Settings를 클릭하고 죄측 메뉴에서 Pages를 클릭하여 Github Pages 설정 페이지로 이동하자.</p>
+<p>CSR란 <strong>Client Side Rendering</strong>의 약자로, 클라이언트가 렌더링을 하는 방식을 말합니다.</p>
+<p>우리가 웹사이트에 접속하게 되면, 빈 HTML 파일을 먼저 다운받게 됩니다. 그래서 이 HTML 파일 안에 있는 DOM 요소나 스타일들이 보이게 되죠.
+이 다음 단계부터는 리액트를 예시로 들겠습니다. 리액트는 자바스크립트로 이루어진 커다란 웹 애플리케이션입니다. 그렇기 때문에 자바스크립트 전체가 다운이 완료되어야지 리액트가 실행됩니다. 이후 한마디로 전체 자바스크립트 파일이 다운되어서 실행되기 전까지 우리는 리액트 앱 화면을 볼 수 없다는 말이죠. 🥲</p>
+<p>리액트가 실행되면 리액트 컴포넌트들이 화면에 그려지게 되고 그제서야 화면을 볼 수 있게 되고, 유저가 인터랙션을 할 수 있게 됩니다. 이후 필요한 내용들을 요청하면 서버에서는 필요한 데이터를 JSON으로 보내주고, 클라이언트가 알아서 재구성합니다.</p>
+<h3 id="ssr란-무엇인가" style="position:relative;"><a href="#ssr%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80" aria-label="ssr란 무엇인가 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSR란 무엇인가?</h3>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
     >
       <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 33.888888888888886%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABLElEQVQoz23Ry07rMBCA4bz/83AE4ixYAEvKZYu4qUASp0nr+BI3sedHcQqoEiN9smc89mJcrD9Knt/WvL6teXp+IYQ9KQkxRmJMB5GUEvFbPvslIghkheo878rStJq6qjC9wTuHMwZnLNYYTN/n2rz2usfmus29eqeJ0wQiWfG4hzufuHcxW/UjK5u4McLKCjcmsXLCwwD3g2Tz/phw64WnvVDcBvjfBs4rzVmpOf3oOGtGTlTitEn8U5HzNnHt4WrmFpdOfsz5hV0eL2rVYJ0nCUxJsmVWkSlOB5EwjospEaa5R/KdJHKkqJXis6woD7bb3SGv2Wxa2m5L23V5VlprtJvYuZgfXOJ7XaKwbmDT7VBNS1krhjDyWSnqpsX5AR/2OB/4K/LvCke+ALWWGN3l6BkwAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    style="padding-bottom: 71.11111111111111%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACRElEQVQoz41SO2/TUBQ2EwtSZxY2Fn4HA/+gAxULqjrDAKgSbxQECCG6wMgAEglJmwYQgSrQBNqmoWpE48R2EhoaO08/6ji2r++17z0ojz4Agfh0lnvu+b7z5GAINrTDeC0az/LduWwzK1sAENCxP2DMp2wUzMFfIPfwutLPNfo/dj34Qxr2ycinXZtoDjGRPwoyUVA3PZ+OKULXTW2bqkMAICl25vOyhemY/F33srIlqk7d9EYFNSy81bYN1x/WCZGCemdZltTB+/Rc+uSVKK8PvjifsoaF8y27YxPKgDJgDLo2+dZ2yjoaZd5s2glRr+rIRP7Tr+3H2dZa3aJsr2ccMPprW2w4m988Q3VGGbMwdQnlRNWNFvW3ZWOhpG82bc31E6IxsrigKz1c0VGE1yK8JmmoY5NYUXtZUKvDorjZZI27nJkIZY/eWj3xcONeRjl2c20ilD1+P8dd/XLmeeliospd+MTNZk492ridlo9cW+Eupa+ndgbkCK9ORsSZRHUqKoUySk7pn18oTy9WZhLVs6+kWFGLFbXJiDAVk57kWp93etOLlXPz0hvJONjzYE6H2gsoeJjB/mEEgPF41yQAhNnBnrs2aVi4bROHBADgEVIqLRfFZL0lAYCLkCgs88K7llqzHSSUlnjpQ9dQxmSlhwsdB/t0RAZG8iuJcPiuJy8NchNnPRWOxx/47VXA+OP7F/HwDdC3xuRd5HdsYrg+3rvgdt8r1xSkdQZSjLV6bnW7jg2VASgmKvICNvV/3fb/4CdLru/c3uTpkgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
-        alt="import3"
-        title="import3"
-        src="/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/37523/import3.png"
-        srcset="/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/e9ff0/import3.png 180w,
-/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/f21e7/import3.png 360w,
-/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/37523/import3.png 720w,
-/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/302a4/import3.png 1080w,
-/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/07a9c/import3.png 1440w,
-/static/761da35d0fdce9ceaf23e0ed4ff1dd1f/49ee2/import3.png 1618w"
+        alt="ssr"
+        title="ssr"
+        src="/static/bea87025b026608390db455af1123ace/37523/ssr.png"
+        srcset="/static/bea87025b026608390db455af1123ace/e9ff0/ssr.png 180w,
+/static/bea87025b026608390db455af1123ace/f21e7/ssr.png 360w,
+/static/bea87025b026608390db455af1123ace/37523/ssr.png 720w,
+/static/bea87025b026608390db455af1123ace/302a4/ssr.png 1080w,
+/static/bea87025b026608390db455af1123ace/2cefc/ssr.png 1400w"
         sizes="(max-width: 720px) 100vw, 720px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
         decoding="async"
       />
     </span></p>
-<p>여기에서 Source에 있는 Branch를 master(main)에서 gh-pages로 변경한 후에 저장하자.</p>
-</li>
-<li>
-<p>배포된 페이지 확인하기</p>
-<p>이제 실제로 블로그가 잘 배포되었는지 확인해보자. [GitHubID].github.io에 접근하면 된다.</p>
-</li>
-<li>
-<p>수정하고 배포하기</p>
-<p>블로그 수정 할 때는 변동사항을 commit 후 아래 명령어를 실행하면 빠르게 배포된다. 짱짱 👍🏻</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run deploy</code></pre></div>
-</li>
-</ol>
-<h3 id="️-블로그-정보-입력하기" style="position:relative;"><a href="#%EF%B8%8F-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%A0%95%EB%B3%B4-%EC%9E%85%EB%A0%A5%ED%95%98%EA%B8%B0" aria-label="️ 블로그 정보 입력하기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✍️ 블로그 정보 입력하기</h3>
-<p>줌코딩 테마를 통해 기본적인 블로그를 완성시켰다. 이제 블로그 정보를 입력하여 나만의 블로그를 커스텀해보자.</p>
+<p>SSR이란 <strong>Server Side Rendering</strong>의 약자로, 서버에서 사용자에게 보여줄 페이지를 모두 구성하여 사용자에게 페이지를 보여주는 방식입니다.</p>
+<p>클라이언트가 요청을 하면 서버에서는 필요한 것들을 이용해 HTML 파일을 만들고, HTML 파일과 동적으로 제어할 수 있는 스크립트를 클라이언트에 보냅니다.</p>
+<h3 id="️-요약" style="position:relative;"><a href="#%EF%B8%8F-%EC%9A%94%EC%95%BD" aria-label="️ 요약 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>✍️ 요약</h3>
+<h4 id="csr" style="position:relative;"><a href="#csr" aria-label="csr permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSR</h4>
+<ul>
+<li>장점 😃</li>
+</ul>
 <ol>
-<li>
-<p>블로그 기본 정보</p>
-<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json">title<span class="token operator">:</span> '' <span class="token comment">// leedawn.com</span>
-description<span class="token operator">:</span> '' <span class="token comment">// leedawn's world</span>
-language<span class="token operator">:</span> 'ko'<span class="token punctuation">,</span> <span class="token comment">// 'ko', 'en' (영어 버전도 지원하고 있습니다.)</span>
-siteUrl<span class="token operator">:</span> '' <span class="token comment">// https://www.leedawnn.github.io</span>
-ogImage<span class="token operator">:</span> '/og-image.png'<span class="token punctuation">,</span> <span class="token comment">// 공유할 때 보이는 미리보기 이미지로 '/static' 하위에 넣고 싶은 이미지를 추가하시면 됩니다.</span></code></pre></div>
-</li>
-<li>
-<p>댓글 설정</p>
-<p>블로그 글들에 댓글을 달 수 있길 원하신다면 utterances를 통해서 이를 설정할 수 있다.</p>
-<blockquote>
-<p>utterances 사용방법은 <a href="https://utteranc.es/">링크</a>를 참고해주세요!</p>
-</blockquote>
-<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json">comments<span class="token operator">:</span> <span class="token punctuation">{</span>
- utterances<span class="token operator">:</span> <span class="token punctuation">{</span>
-     repo<span class="token operator">:</span> '' <span class="token comment">// leedawnn/leedawnn.github.io</span>
-   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span></code></pre></div>
-</li>
-<li>
-<p>글쓴이 정보</p>
-<p>글쓴이(author)에 입력한 정보는 홈페이지와 about 페이지 상단에 있는 글쓴이를 소개하는 섹션인 bio에서 사용된다. description에 자신을 설명하는 문구들을 넣으면 애니메이션으로 보여지게 되고, bio에 들어가는 이미지를 바꾸려면 assets에 원하시는 파일을 추가하고 파일의 이름을 thumbnail에 넣어주면 된다.(gif도 지원함!)</p>
-<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json">author<span class="token operator">:</span> <span class="token punctuation">{</span>
-   name<span class="token operator">:</span> `이지혜`<span class="token punctuation">,</span>
-   bio<span class="token operator">:</span> <span class="token punctuation">{</span>
-      role<span class="token operator">:</span> `개발자`<span class="token punctuation">,</span>
-      description<span class="token operator">:</span> <span class="token punctuation">[</span>'매일 더 성장하는'<span class="token punctuation">,</span> '끝까지 해내는'<span class="token punctuation">,</span> '이로운 것을 나누고픈'<span class="token punctuation">]</span><span class="token punctuation">,</span>
-      thumbnail<span class="token operator">:</span> 'memoji.png'<span class="token punctuation">,</span> <span class="token comment">// Path to the image in the 'asset' folder</span>
-   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-   social<span class="token operator">:</span> <span class="token punctuation">{</span>
-      github<span class="token operator">:</span> `https<span class="token operator">:</span><span class="token comment">//github.com/leedawnn`,</span>
-      linkedIn<span class="token operator">:</span> `https<span class="token operator">:</span><span class="token comment">//www.linkedin.com/in/ji-hey-lee-0175b9224/`,</span>
-      email<span class="token operator">:</span> `dev.leedawn@gmail.com`<span class="token punctuation">,</span>
-   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
-</li>
+<li>필요한 부분만 요청해서 받아오기 때문에 SSR보다 상대적으로 빠릅니다.</li>
+<li>요청시에 필요한 부분만 데이터를 받아오기 때문에 서버에 부담이 적습니다.</li>
 </ol>
-<h3 id="-about-page-만들기" style="position:relative;"><a href="#-about-page-%EB%A7%8C%EB%93%A4%EA%B8%B0" aria-label=" about page 만들기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>👸 about page 만들기</h3>
-<p>about 페이지 또한 gatsby-meta-config.js를 통해 생성된다. about 하위에 있는 timestamps와 projects에 각각 정보를 입력하면 about 페이지가 자동 생성됨.</p>
+<ul>
+<li>단점 🥲</li>
+</ul>
 <ol>
-<li>
-<p>timestamps</p>
-<p>아래와 같이 각 timestamp 정보를 배열로 제공해주면 입력한 순서에 맞춰서 timestamps section에 보여지게 된다.</p>
-<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
-date<span class="token operator">:</span> '<span class="token number">2021.01</span> ~'<span class="token punctuation">,</span>
-activity<span class="token operator">:</span> '개인 블로그 개발 및 운영'<span class="token punctuation">,</span>
-links<span class="token operator">:</span> <span class="token punctuation">{</span>
-   post<span class="token operator">:</span> '/make-gatsby-starter-zoomkoding'<span class="token punctuation">,</span>
-   github<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//github.com/leedawnn/leedawnn.github.io',</span>
-   demo<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//leedawnn.github.io/',</span>
-   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
-</li>
-<li>
-<p>projects</p>
-<p>마찬가지로 각 project 정보를 배열로 입력하면 순서대로 projects section에 보여지게 된다.</p>
-<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
-title<span class="token operator">:</span> '개발 블로그 테마 개발'<span class="token punctuation">,</span>
-description<span class="token operator">:</span>
-   '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.'<span class="token punctuation">,</span>
-techStack<span class="token operator">:</span> <span class="token punctuation">[</span>'gatsby'<span class="token punctuation">,</span> 'react'<span class="token punctuation">]</span><span class="token punctuation">,</span>
-thumbnailUrl<span class="token operator">:</span> 'blog.png'<span class="token punctuation">,</span>
-links<span class="token operator">:</span> <span class="token punctuation">{</span>
-   post<span class="token operator">:</span> '/gatsby-starter-zoomkoding-introduction'<span class="token punctuation">,</span>
-   github<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//github.com/zoomkoding/zoomkoding-gatsby-blog',</span>
-   demo<span class="token operator">:</span> 'https<span class="token operator">:</span><span class="token comment">//www.zoomkoding.com',</span>
-   <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre></div>
-</li>
+<li>처음에 모든 파일을 받아와야하기 때문에 SSR보다 초기 속도가 느립니다.</li>
+<li>SEO에 취약합니다.</li>
 </ol>
-<p>이렇게 내용을 문제 없이 입력하셨다면 나만의 블로그가 탄생한 것을 확인하실 수 있습니다.🎉</p>
+<h4 id="ssr" style="position:relative;"><a href="#ssr" aria-label="ssr permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSR</h4>
+<ul>
+<li>장점 😃</li>
+</ul>
+<ol>
+<li>CSR을 사용했을 때보다 페이지 로딩이 빠르기 때문에 사용자가 빠르게 화면을 볼 수 있습니다.</li>
+<li>SEO에 효율적입니다.</li>
+<li>정적인 사이트에 사용하기 좋습니다.</li>
+</ol>
+<ul>
+<li>단점 🥲</li>
+</ul>
+<ol>
+<li>페이지를 요청할때마다 필요한 부분만 바꿔서 보여주는 것이 아닌 새로운 페이지를 보여주기 때문에 화면이 깜빡이는 현상이 있습니다.</li>
+<li>서버에 계속 요청해야하기 때문에 서버 부하가 커집니다.</li>
+<li>동적으로 데이터를 처리하는 파일을 받아오는 것이 느리면, 사용자가 아무리 클릭을 해도 반응을 하지 않는 경우가 생기기도 합니다.</li>
+</ol>
 <blockquote>
-<p>이 게시글은 <a href="https://github.com/zoomkoding/zoomkoding-gatsby-blog">zoomkoding-gatsby-blog</a>을 보고 작성하였습니다. 더 자세한 정보를 얻고 싶다면 링크를 참조하세요.</p>
+<p>사진 출처 : <a href="https://medium.com/walmartglobaltech/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8">https://medium.com/walmartglobaltech/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8</a> 인용 : <a href="https://d2.naver.com/helloworld/7804182">https://d2.naver.com/helloworld/7804182</a></p>
 </blockquote>
 <div class="table-of-contents">
 <ul>
-<li><a href="#%EC%98%88%EC%81%98%EB%A9%B4-%EC%9E%A5%EB%95%A1">💅 예쁘면 장땡</a></li>
-<li><a href="#-gatsby%EC%9D%98-%EC%9E%A5%EC%A0%90">✅ Gatsby의 장점</a></li>
-<li><a href="#%EC%9D%B4%EC%A0%9C-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90">🚀 이제 만들어보자</a></li>
-<li><a href="#%EF%B8%8F-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%A0%95%EB%B3%B4-%EC%9E%85%EB%A0%A5%ED%95%98%EA%B8%B0">✍️ 블로그 정보 입력하기</a></li>
-<li><a href="#-about-page-%EB%A7%8C%EB%93%A4%EA%B8%B0">👸 about page 만들기</a></li>
+<li>
+<ul>
+<li><a href="#%EB%93%A4%EC%96%B4%EA%B0%80%EA%B8%B0%EC%97%90-%EC%95%9E%EC%84%9C">들어가기에 앞서..</a></li>
 </ul>
-</div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"></div><div class="post-navigator-card-wrapper"><a class="post-card next" href="/whta-is-CRS-SSR/"><div class="direction">다음 글</div><div class="title">CSR, SSR이 뭐예요?</div></a></div></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/leedawnn">이지혜</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/make-gatsby-starter-zoomkoding/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-6631a14e6c3d8f658443.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js" async=""></script><script src="/app-6631a14e6c3d8f658443.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-e82a0f1e2cd289355a4a.js" async=""></script></body></html>
+</li>
+<li>
+<p><a href="#csr%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80">CSR란 무엇인가?</a></p>
+</li>
+<li>
+<p><a href="#ssr%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80">SSR란 무엇인가?</a></p>
+</li>
+<li>
+<p><a href="#%EF%B8%8F-%EC%9A%94%EC%95%BD">✍️ 요약</a></p>
+<ul>
+<li><a href="#csr">CSR</a></li>
+<li><a href="#ssr">SSR</a></li>
+</ul>
+</li>
+</ul>
+</div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/make-gatsby-starter-zoomkoding/"><div class="direction">이전 글</div><div class="title">Gatsby로 github blog 만들기</div></a></div><div class="post-navigator-card-wrapper"></div></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/leedawnn">이지혜</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/whta-is-CRS-SSR/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-6631a14e6c3d8f658443.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js" async=""></script><script src="/app-6631a14e6c3d8f658443.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-e82a0f1e2cd289355a4a.js" async=""></script></body></html>
