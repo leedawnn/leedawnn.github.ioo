@@ -1,7 +1,7 @@
 ---
 emoji: 🧐
 title: CSR, SSR이 뭐예요?
-date: '2022-01-09 24:40:00'
+date: '2022-01-09 00:40:00'
 author: leedawn
 tags: CSR SSR frontend
 categories: web
