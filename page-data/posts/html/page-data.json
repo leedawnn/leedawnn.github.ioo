@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/html",
+    "result": {"pageContext":{"currentCategory":"html","categories":["All","html","web","featured"],"edges":[{"node":{"id":"e94c82d1-4c13-5f60-a35e-a9f0249a49d5","excerpt":"개인적으로 element에 텍스트를 추가하고 싶을 때는 innerText를 사용하는 편이에요. 두 프로퍼티는 어떤 공통점과 차이점을 가지고 있는지 궁금해져서 정리해보려고 합니다 ! 공통점 🍯 둘 다 텍스트노드를 추가해요. 텍스트를 추가한다는 공통점이 있어요. 결과 역시 동일해요. 해당 element의 텍스트 값을 반환해요. 즉, 어떤 텍스트를 가지고 있는지 알 수 있어요. 차이점 👻 는 와  요소를 포함한 모든 요소의 콘텐츠를 가져옵니다. 반면 는 “사람이 읽을 수 있는” 요소만 처리해요. 즉, 는 모든 텍스트를 그대로 가져오지만, 는 불필요한 공백을 제거하고 텍스트로 반환하는 차이점이 있어요. textConent가 먼저 만들어졌고, 더 빨리 사용되었다고 해요. 이런 이유로 브라우저 호환성도 좀 더 높습니다. 또한 큰 차이는 아니지만 더 가볍다고 알려져 있어요. 예를 들어, 아래와 같은 태그가 있다고 가정해볼게요. 이 때, innerText와 textContent의 결과는 다릅니다…","fields":{"slug":"/about-innerText-textContent/"},"frontmatter":{"categories":"html","title":"innerText vs textContent","date":"March 16, 2022"}},"next":{"fields":{"slug":"/whta-is-CRS-SSR/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
