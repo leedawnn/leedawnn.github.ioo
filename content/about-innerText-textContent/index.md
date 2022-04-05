@@ -4,7 +4,7 @@ title: innerText vs textContent
 date: '2022-03-16 15:00:00'
 author: leedawn
 tags: innerText textContent frontend
-categories: html
+categories: JS
 ---
 
 개인적으로 element에 텍스트를 추가하고 싶을 때는 innerText를 사용하는 편이에요. 두 프로퍼티는 어떤 공통점과 차이점을 가지고 있는지 궁금해져서 정리해보려고 합니다 !
@@ -67,5 +67,4 @@ categories: html
 
 - 인용
 
-  > https://developer.mozilla.org/ko/docs/Web/API/HTMLElement/innerText
-  > https://developer.mozilla.org/ko/docs/Web/API/Node/textContent
+  > https://developer.mozilla.org/ko/docs/Web/API/HTMLElement/innerText > https://developer.mozilla.org/ko/docs/Web/API/Node/textContent
