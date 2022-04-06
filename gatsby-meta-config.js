@@ -72,15 +72,15 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: '공간 예약 사이트 개발',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-        techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
+          '공간을 찾고 있나요? 다양한 공간을 원하는 날짜, 시간에 미리 예약하세요 :) 공간 예약 사이트 OUR SPACE 입니다.',
+        techStack: ['Javascript', 'Vue3', 'Vuex', 'Scss'],
+        thumbnailUrl: 'assets/ourSpace.png',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/leedawnn/Our-Space',
+          demo: 'https://ourzone.netlify.app/',
         },
       },
     ],
