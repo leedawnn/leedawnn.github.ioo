@@ -43,12 +43,11 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
+        date: '2021.11.10 ~ 2021.11.19',
+        activity: '공간 예약 사이트 개발',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/leedawnn/Our-Space',
+          demo: 'https://ourzone.netlify.app/',
         },
       },
     ],
@@ -73,12 +72,11 @@ module.exports = {
       // ========================================================
       {
         title: '공간 예약 사이트 개발',
-        description:
-          '공간을 찾고 있나요? 다양한 공간을 원하는 날짜, 시간에 미리 예약하세요 :) 공간 예약 사이트 OUR SPACE 입니다.',
-        techStack: ['Javascript', 'Vue3', 'Vuex', 'Scss'],
+        description: `공간을 찾고 있나요? 다양한 공간을 원하는 날짜, 시간에 미리 예약하세요 :)
+          공간 예약 사이트 OUR SPACE 입니다.`,
+        techStack: ['javascript', 'vue3', 'vuex', 'scss', 'webpack'],
         thumbnailUrl: 'assets/ourSpace.png',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
           github: 'https://github.com/leedawnn/Our-Space',
           demo: 'https://ourzone.netlify.app/',
         },
