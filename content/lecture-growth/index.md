@@ -1,6 +1,6 @@
 ---
 emoji: 👩‍💻
-title: [우테코X원티드] 오늘의 개발자 : 프론트엔드1
+title: \[우테코X원티드] 오늘의 개발자 : 프론트엔드1
 date: '2022-04-06 19:30:00'
 author: leedawn
 tags: growth lecture
