@@ -35,6 +35,7 @@ categories: JS
 ## 함수형 프로그래밍의 특징
 
 1. **순수함수**
+
    함수에서 외부의 상태값을 참조하거나 또는 외부의 상태를 변경하는 것은 순수함수라고 부를 수 없다. 동일한 인자값을 넣었을 때 항상 동일한 결과값을 리턴하고 언제 선언이 되었는지 외부에 전혀 영향을 받지 않도록 작성을 해야한다.
 
    ```javascript
@@ -56,6 +57,7 @@ categories: JS
    ```
 
 2. **Stateless, Immutability**
+
    비상태, 불변성을 유지해야한다. 아래 코드와 같이 함수에 인자로 전달된 데이터를 변경하는 것은 절대 함수형이 아니다.
 
    ```javascript
@@ -91,6 +93,7 @@ categories: JS
    ```
 
 3. **Expression Only!**
+
    if나 for, switch문과 같은 expression을 쓰는 것은 함수형 프로그래밍이 아니다!
 
    ```javascript
