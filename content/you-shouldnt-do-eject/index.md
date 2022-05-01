@@ -47,7 +47,7 @@ eject는 우리의 프로젝트를 자유롭게 customizing 한다는 점에서 
 - CRA의 모든 configuration을 직접 유지보수 해야 된다. webpack, babel부터 프로젝트에 필요한 테스트 등 많은 작업이 필요하다. 협업을 해야하는 상황에서는 매우 힘든 과정이 아닐 수 없다.
 - One Build Dependency의 장점을 잃게 된다. 작업 도중 하나의 패키지가 필요해서 설치한다거나 삭제할 때, 항상 다른 패키지들과의 의존성을 신경써야 한다.
 
-## CRA의 안정성과 custom을 결들이기 위해
+## CRA의 안정성과 custom을 곁들이기 위해
 
 이럴 땐, [CRACO](https://github.com/gsoft-inc/craco)를 사용하면 된다. CRA를 그대로 사용하면서 이 라이브러리를 통해 오버라이딩을 할 수 있다.
 
