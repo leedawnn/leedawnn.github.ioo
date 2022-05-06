@@ -135,3 +135,7 @@ categories: JS
    console.log(egg('🍳'));
    console.log(bacon('🥓'));
    ```
+
+```toc
+
+```
