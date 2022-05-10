@@ -1,6 +1,6 @@
 ---
 emoji: 🌐
-title: eslint, stylelint 설정하기(with VSCODE)
+title: 'eslint, stylelint 설정하기(with VSCODE)'
 date: '2022-05-10 01:30:00'
 author: leedawn
 tags: eslint stylelint prettier
