@@ -4,7 +4,7 @@ title: 'React의 특징'
 date: '2022-05-15 21:40:00'
 author: leedawn
 tags: react vitualDOM
-categories: react
+categories: frontend
 ---
 
 ## React의 특징은 무엇일까

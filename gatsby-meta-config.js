@@ -1,6 +1,6 @@
 module.exports = {
   title: `leedawn.com`,
-  description: `leedawn's world`,
+  description: `leedawn's tech blog`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://leedawnn.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
@@ -23,7 +23,6 @@ module.exports = {
       email: `dev.leedawn@gmail.com`,
     },
   },
-
   // metadata for About Page
   about: {
     timestamps: [
@@ -43,15 +42,97 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.11.10 ~ 2021.11.19',
-        activity: '공간 예약 사이트 개발',
+        date: '2022.01.06',
+        activity: 'Gatsby로 github blog 만들기',
         links: {
-          github: 'https://github.com/leedawnn/Our-Space',
-          demo: 'https://ourzone.netlify.app/',
+          post: './content/make-gatsby-starter-zoomkoding',
+        },
+      },
+      {
+        date: '2022.01.09',
+        activity: 'CSR, SSR이 뭐예요?',
+        links: {
+          post: '/whta-is-CRS-SSR',
+        },
+      },
+      {
+        date: '2022.03.16',
+        activity: 'innerText vs textContent',
+        links: {
+          post: '/about-innerText-textContent',
+        },
+      },
+      {
+        date: '2022.03.24',
+        activity: 'BEM 방법론',
+        links: {
+          post: '/what-is-BEM',
+        },
+      },
+      {
+        date: '2022.04.05',
+        activity: 'AJAX란 ?!',
+        links: {
+          post: '/about-ajax',
+        },
+      },
+      {
+        date: '2022.04.06',
+        activity: '[우테코X원티드] 오늘의 개발자 : 프론트엔드1',
+        links: {
+          post: '/lecture-growth',
+        },
+      },
+      {
+        date: '2022.04.15',
+        activity: '웹개발에서 함수형 프로그래밍이 대세다?',
+        links: {
+          post: '/functional-programming',
+        },
+      },
+      {
+        date: '2022.04.29',
+        activity: 'Create-React-App에서 eject를 하면 안되는 이유',
+        links: {
+          post: '/you-shouldnt-do-eject',
+        },
+      },
+      {
+        date: '2022.05.01',
+        activity: '모던 자바스크립트 Deep Dive 스터디 회고',
+        links: {
+          post: '/js-deep-dive-study',
+        },
+      },
+      {
+        date: '2022.05.10',
+        activity: 'eslint, stylelint 설정하기(with VSCODE)',
+        links: {
+          post: '/eslint-setting',
+        },
+      },
+      {
+        date: '2022.05.11',
+        activity: '이미지 최적화',
+        links: {
+          post: '/image-optimization',
+        },
+      },
+      {
+        date: '2022.05.15',
+        activity: 'React의 특징',
+        links: {
+          post: '/react-characteristic',
+        },
+      },
+      {
+        date: '2022.05.16',
+        activity: 'REST API보다 graphQL을 쓰고 싶은 이유',
+        links: {
+          post: '/what-about-graphql/',
         },
       },
     ],
-
     projects: [
       // =====        [Project Sample and Structure]        =====
       // ===== 🚫 Don't erase this sample (여기 지우지 마세요!)  =====

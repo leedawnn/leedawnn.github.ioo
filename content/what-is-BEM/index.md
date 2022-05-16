@@ -4,7 +4,7 @@ title: BEM 방법론
 date: '2022-03-24 21:00:00'
 author: leedawn
 tags: BEM css frontend
-categories: css
+categories: style
 ---
 
 오늘은 BEM 방법론에 대해 얘기해보려해요 😃  

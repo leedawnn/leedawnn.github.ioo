@@ -4,7 +4,7 @@ title: Create-React-App에서 eject를 하면 안되는 이유
 date: '2022-04-29 16:40:00'
 author: leedawn
 tags: react
-categories: react
+categories: frontend
 ---
 
 ## CRA를 쓰는 이유

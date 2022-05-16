@@ -4,7 +4,7 @@ title: Gatsby로 github blog 만들기
 date: '2022-01-06 20:00:00'
 author: leedawn
 tags: theme
-categories: featured
+categories: frontend
 ---
 
 ### 💅 예쁘면 장땡
