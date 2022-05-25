@@ -45,7 +45,7 @@ module.exports = {
         date: '2022.01.06',
         activity: 'Gatsby로 github blog 만들기',
         links: {
-          post: './content/make-gatsby-starter-zoomkoding',
+          post: '/make-gatsby-starter-zoomkoding',
         },
       },
       {
@@ -130,6 +130,13 @@ module.exports = {
         activity: 'REST API보다 graphQL을 쓰고 싶은 이유',
         links: {
           post: '/what-about-graphql/',
+        },
+      },
+      {
+        date: '2022.05.25',
+        activity: '빠르게 성장하고 싶은 주니어 개발자를 위한 로드맵',
+        links: {
+          post: '/lecture-junior-loadmap',
         },
       },
     ],
