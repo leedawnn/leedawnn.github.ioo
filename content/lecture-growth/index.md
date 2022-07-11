@@ -53,3 +53,7 @@ categories: lecture
 - finding - 어떤 인사이트가 있었는지
 - future action - 액션 플랜이 있는지(내일이나 미래)
 - feedback - 진행한 액션 플랜에 대한 본인의 피드백
+
+```toc
+
+```
