@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-category-template-js",
-    "path": "/posts/git",
-    "result": {"pageContext":{"currentCategory":"git","categories":["All","git","lecture","frontend","web","environment","회고","JS","style"],"edges":[{"node":{"id":"d4862210-2f10-540a-ac00-28b0df9284b7","excerpt":"Git과 Github 차이점 본론에 들어가기 앞서, 은근 헷갈리기 쉬운 주제를 정리해보자.\n간단해보일지라도 면접에서 물어본다면 머리가 하얘질 수 있다,,, Git : 오픈 소스 버전 관리 시스템 Github : 클라우드 서버를 이용해서 로컬에서 버전 관리한 소스코드를 업로드함. 소스 코드 공유가 가능한 원격 저장소 Git 명령어 명령어 기능 설명 git init 저장소 초기화 git status 현재 상태 확인 git add 현재 상태 추적 git commit 현재 상태 저장 git push 원격 저장소에 공유 git clone 원격 저장소 복제 git pull 원격 저장소에서 로컬로 업데이트 git log 이력 확인 git reset 이전 상태로(이력 제거) git revert 이전 상태로(이력 유지) git switch 브랜치 변경 git merge 브랜치 합치기 git restore 워킹 트리의 파일을 복원 Git의 기초  워킹 디렉토리의 모든 파일은 크게 Tracked(관리…","fields":{"slug":"/about-git/"},"frontmatter":{"categories":"git","title":"Git 마스터 하기","date":"July 06, 2022"}},"next":{"fields":{"slug":"/lecture-junior-loadmap/"}},"previous":null}]}},
-    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
