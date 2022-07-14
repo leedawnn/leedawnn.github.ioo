@@ -55,9 +55,11 @@ const map = array.map((x) => x * 2);
 console.log(map); // [2, 8, 18, 32]
 
 // idx를 이용해서 배열을 만들 수도 있다.
-Array(9).fill(0).map((el, idx) => {
-  return idx + 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9]
-})
+Array(9)
+  .fill(0)
+  .map((el, idx) => {
+    return idx + 1; // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  });
 ```
 
 map은 배열 내의 모든 요소 각각에 대하여 주어진 함수를 호출한 결과를 모아 새로운 배열을 반환한다.
@@ -92,6 +94,18 @@ reduce는 콜백함수나 initialValue를 전달한다. reduce는 4개의 인자
 2. 현재 값(cur)
 3. 현재 인덱스(idx)
 4. 원본 배열(src)
+
+### every
+
+```javascript
+const isBelowThreshold = (currentValue) => currentValue < 40;
+
+const array1 = [1, 30, 39, 29, 10, 13];
+
+console.log(array1.every(isBelowThreshold)); // true
+```
+
+every는 배열 안의 모든 요소가 주어진 함수를 통과하는지 테스트하며, boolean 값을 반환한다.
 
 ```toc
 
