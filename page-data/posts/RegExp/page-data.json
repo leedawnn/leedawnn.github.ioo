@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/RegExp",
+    "result": {"pageContext":{"currentCategory":"RegExp","categories":["All","frontend","react","js","javascript","RegExp","ts","JS","회고","fronted","tool","lecture","web","environment","style"],"edges":[{"node":{"id":"0786dbcf-d3c8-56cf-b5dc-774ad84d8acb","excerpt":"정규표현식이란? 일정한 패턴을 가진 문자열의 집합을 표현하기 위해 사용하는 형식 언어이다. 정규 표현식은 문자열을 대상으로 패턴 매칭 기능을 제공한다. 패턴 매칭 기능이란 특정 패턴과 일치하는 문자열을 검색하거나 추출 또는 치환할 수 있는 기능을 말한다. 예를 들어, 회원가입 폼에서 사용자로부터 입력받은 핸드폰 번호가 유효한 전화번호인지 체크하는 경우를 생각해 보자. 핸드폰 번호는 “숫자 3개 + ‘-’ + 숫자 4개 + ‘-’ + 숫자 4개”라는 일정한 패턴이 있다. 이 핸드폰 번호 패턴을 다음과 같이 정규 표현식으로 정의하고, 사용자로부터 입력받은 문자열이 이 핸드폰 번호 패턴에 매칭하는지 체크할 수 있다. 정규 표현식의 구성 정규 표현식 리터럴은 패턴과 플래그로 구성된다. pattern : 정규 표현식의 패턴 flags: 정규 표현식의 플래그(g, i, m, u, y) >> 표 그리기 RegExp 메서드 RegExp.prototype.exec exec 메서드는 인수로 전달받은…","fields":{"slug":"/codecamp_blog_7/"},"frontmatter":{"categories":"RegExp","title":"정규 표현식","date":"August 26, 2022"}},"next":{"fields":{"slug":"/codecamp_blog_6/"}},"previous":{"fields":{"slug":"/codecamp_blog_9/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
