@@ -14,8 +14,8 @@ categories: 회고
 생각해온 기획 아이디어에 대해 한 명씩 설명하고, 투표를 진행했다.
 
 <div style="display: flex;">
-  <img src='/assets/codecamp1.jpg' width="440"/>
-  <img src='/assets/codecamp2.jpg' width="600"/>
+  <img src='../../assets/codecamp1.jpg' />
+  <img src='../../assets/codecamp2.jpg' />
 </div>
 
 2번의 투표 결과, 내가 생각해온 아이템인 **댕더**가 채택되었다 😉  ~~나름 쟁쟁했음.~~
