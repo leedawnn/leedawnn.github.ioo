@@ -4,7 +4,7 @@ title: 'Atomic Pattern이란?'
 date: '2022-07-11 15:00:00'
 author: leedawn
 tags: Atomic Pattern
-categories: fronted
+categories: frontend
 ---
 
 ## Atomic Pattern이란?
@@ -46,7 +46,7 @@ organism은 앞 단계보다 좀 더 복잡하고 서비스에서 표현될 수 
 페이지는 유저가 볼 수 있는 실제 콘텐츠를 담고 있다.
 
 > 인용 :
-> https://fe-developers.kakaoent.com/2022/220505-how-page-part-use-atomic-design-system/ 
+> https://fe-developers.kakaoent.com/2022/220505-how-page-part-use-atomic-design-system/
 > https://zoomkoding.github.io/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84/2020/07/09/atomic-design-pattern.html
 
 ```toc
