@@ -139,6 +139,69 @@ module.exports = {
           post: '/lecture-junior-loadmap',
         },
       },
+      {
+        date: '2022.07.06',
+        activity: 'Git 마스터 하기',
+        links: {
+          post: '/about-git',
+        },
+      },
+      {
+        date: '2022.07.11',
+        activity: 'Atomic Pattern이란?',
+        links: {
+          post: '/about-atomic-pattern',
+        },
+      },
+      {
+        date: '2022.07.14',
+        activity: '자바스크립트 배열 메서드 마스터하기',
+        links: {
+          post: '/master-array-method',
+        },
+      },
+      {
+        date: '2022.10.04',
+        activity: '코드캠프 수료 회고',
+        links: {
+          post: '/codecamp_grad',
+        },
+      },
+      {
+        date: '2023.01.22',
+        activity: 'JSDoc 찍먹 🍯',
+        links: {
+          post: '/about-jsDoc',
+        },
+      },
+      {
+        date: '2023.01.23',
+        activity: '프론트엔드 면접 대비 Part1. CS',
+        links: {
+          post: '/prepare-interview-01',
+        },
+      },
+      {
+        date: '2023.01.28',
+        activity: '프론트엔드 면접 대비 Part1. CS',
+        links: {
+          post: '/prepare-interview-02',
+        },
+      },
+      {
+        date: '2023.03.02',
+        activity: 'data 속성이란 무엇일까?',
+        links: {
+          post: '/what-about-data-',
+        },
+      },
+      {
+        date: '2023.03.09',
+        activity: '자바스크립트는 싱글 스레드인데 어떻게 비동기가 가능할까요?',
+        links: {
+          post: '/so-why-is-js-asynchronous',
+        },
+      },
     ],
     projects: [
       // =====        [Project Sample and Structure]        =====
