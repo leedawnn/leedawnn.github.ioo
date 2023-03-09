@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/javascript",
+    "result": {"pageContext":{"currentCategory":"javascript","categories":["All","javascript","frontend","interview","JS","회고","tool","lecture","web","environment","style"],"edges":[{"node":{"id":"8bc95de7-58e8-5d2b-80db-29ff4b916149","excerpt":"어…그러게요…? 동공 지진을 일으킨 면접 질문이다. 언젠가 자바스크립트 공부를 하면서 보았던 질문이었고, 분명 그 글을 자세하게 읽었던 기억은 나는데..\n내 머릿 속에는 아무것도 남아있지 않았다 😇 싱글 스레드 기반인 자바스크립트가 어떻게 비동기를 구현했을까? 자바스크립트는 싱글 스레드 기반 언어가 맞나요? Yes! 자바스크립트는 싱글 스레드 기반 언어이다. 코드 실행 중 하나의 코드에서 멈추거나 걸리면 다음으로 진행할 수 없다. 이러한 일이 발생하는 대표적인 예로 alert가 있다.  alert 창에서 확인을 누르기 전까지는 웹 페이지와 상호 작용을 할 수 없다. 그렇다면, 자바스크립트로 어떻게 비동기를 구현할 수 있는 것일까? 🤨 프론트엔드 관점에서 자바스크립트 코드는 반드시 브라우저를 통해 실행된다. 이 브라우저에 내장되어 있는 기능인 이벤트 루프(event loop) 덕분에 싱글 스레드 언어인 자바스크립트가 우리 눈으로 보기엔 동시성(Concurrency)을 갖는 작업을 해…","fields":{"slug":"/so-why-is-js-asynchronous/"},"frontmatter":{"categories":"javascript","title":"자바스크립트는 싱글 스레드인데 어떻게 비동기가 가능할까요?","date":"March 09, 2023"}},"next":{"fields":{"slug":"/what-about-data-/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
