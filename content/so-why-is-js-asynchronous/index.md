@@ -4,7 +4,7 @@ title: '자바스크립트는 싱글 스레드인데 어떻게 비동기가 가�
 date: '2023-03-09 20:00:00'
 author: leedawn
 tags: frontend javascript
-categories: javascript
+categories: JS
 ---
 
 ## 어...그러게요...?

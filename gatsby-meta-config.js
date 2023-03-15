@@ -222,7 +222,7 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '공간 예약 사이트 개발',
+        title: '공간 예약 사이트',
         description: `공간을 찾고 있나요? 다양한 공간을 원하는 날짜, 시간에 미리 예약하세요 :)
           공간 예약 사이트 OUR SPACE 입니다.`,
         techStack: ['javascript', 'vue3', 'vuex', 'scss', 'webpack'],
@@ -230,6 +230,26 @@ module.exports = {
         links: {
           github: 'https://github.com/leedawnn/Our-Space',
           demo: 'https://ourzone.netlify.app/',
+        },
+      },
+      {
+        title: '댕더(Dangder)',
+        description: `Tinder와 같은 매칭 서비스 ‘댕더(Dangder)’를 개발한 프로젝트입니다. ‘댕더(Dangder)’는 반려견의 Play-Mate를 찾아 줌으로써 반려견의 ‘멍라벨'을 높이기 위한 서비스입니다. 플랫폼을 통해 서로 마음이 맞는 친구를 매칭시켜 채팅과 함께 만나 볼 수 있는 기능을 제공하는 애견인과 댕댕이를 위한 프로젝트입니다.`,
+        techStack: ['Next.js', 'Typescript', 'Recoil', 'GraphQL', 'Apollo-Client', 'Emotion'],
+        thumbnailUrl: 'assets/hoxydang.png',
+        links: {
+          github: 'https://github.com/leedawnn/dangder-client',
+          demo: 'https://dangder.shop/',
+        },
+      },
+      {
+        title: '댕근마켓',
+        description: `오직 반려동물만을 위한 커뮤니티 및 중고 거래 서비스 프로젝트입니다. 반려동물을 키우는 집사라면 누구나 편리하게 이용할 수 있는 웹 기반 서비스이며, 육아에 있어 필요한 상품을 거래하거나 정보 공유를 한 곳에서 할 수 있도록 편리함을 주기를 위해 만들었습니다.`,
+        techStack: ['Next.js', 'Typescript', 'Recoil', 'GraphQL', 'Apollo-Client', 'Emotion'],
+        thumbnailUrl: 'assets/danggn_logo.png',
+        links: {
+          github: 'https://github.com/leedawnn/danggn-market',
+          demo: 'https://danggn.shop/',
         },
       },
     ],
